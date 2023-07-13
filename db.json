@@ -1,9 +1,524 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin@gmail.com",
+      "password": "12345678",
+      "firstName": "admin",
+      "lastName": "admin"
+    },
+    {
+      "username": "namphongtran232@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 2
+    },
+    {
+      "username": "namphongtran233@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 3
+    },
+    {
+      "username": "namphongtran234@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 4
+    },
+    {
+      "username": "namphongtran235@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 5
+    },
+    {
+      "username": "namphongtran236@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 6
+    },
+    {
+      "username": "nam@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 7
+    },
+    {
+      "username": "123@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 8
+    },
+    {
+      "username": "12344@gmail.com",
+      "password": "12345678",
+      "firstName": "Trần",
+      "lastName": "Nam",
+      "id": 9
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "products": [
+    {
+      "id": 1,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image4.png",
+      "name": "Sweet Brioche",
+      "description": "A traditionally sweet yeast bread loaded with eggs and butter",
+      "ingredient": "Granulated sugar, instant, salt, vegetable, oil & flour.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image4.png\",\"http://127.0.0.1:8887/image5.png\",\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\"]",
+      "price": "2.10",
+      "dishLeft": 0
+    },
+    {
+      "id": 2,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image5.png",
+      "name": "Cornbread",
+      "description": "A bread of French origin whose high egg and butter content gives it a ri...",
+      "ingredient": "Rye, instant, flour, sugar, oil, vegetable & salt.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image5.png\",\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\",\"http://127.0.0.1:8887/image16.png\"]",
+      "price": "1.70",
+      "dishLeft": 43
+    },
+    {
+      "id": 3,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image6.png",
+      "name": "Rye Pumpernickel",
+      "description": "A type of rye bread, flavorful pumpernickel hails from Germany...",
+      "ingredient": "Rye, instant, flour, sugar, oil, vegetable & salt.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\",\"http://127.0.0.1:8887/image16.png\",\"http://127.0.0.1:8887/image17.png\"]",
+      "price": "3.50",
+      "dishLeft": 50
+    },
+    {
+      "id": 4,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image7.png",
+      "name": "Croissants",
+      "description": "Sweet Honey - Sweet Bread. We have the perfect honey bread for ...",
+      "ingredient": "Flour, chocolate, matcha, salt, sugar, milk & instant.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image7.png\",\"http://127.0.0.1:8887/image16.png\",\"http://127.0.0.1:8887/image17.png\",\"http://127.0.0.1:8887/image19.png\"]",
+      "price": "1.40",
+      "dishLeft": 50
+    },
+    {
+      "id": 5,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image16.png",
+      "name": "Rye bread",
+      "description": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+      "ingredient": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image16.png\",\"http://127.0.0.1:8887/image17.png\",\"http://127.0.0.1:8887/image19.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "1.70",
+      "dishLeft": 50
+    },
+    {
+      "id": 6,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image17.png",
+      "name": "Cupcakes",
+      "description": "Flour, chocolate, matcha, salt, sugar, milk & instant.",
+      "ingredient": "Flour, chocolate, matcha, salt, sugar, milk & instant.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image17.png\",\"http://127.0.0.1:8887/image19.png\",\"http://127.0.0.1:8887/image20.png\",\"http://127.0.0.1:8887/image21.png\"]",
+      "price": "0.50",
+      "dishLeft": 50
+    },
+    {
+      "id": 7,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image19.png",
+      "name": "Banana Bread",
+      "description": "Sugar, instant, salt, vegetable, honey, chocolate, oil & flour.",
+      "ingredient": "Sugar, instant, salt, vegetable, honey, chocolate, oil & flour.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image19.png\",\"http://127.0.0.1:8887/image20.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image22.png\"]",
+      "price": "2.10",
+      "dishLeft": 50
+    },
+    {
+      "id": 8,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image20.png",
+      "name": "Big Brioche",
+      "description": "Rye, soup, flour, vegetable, oil, meat & salt.",
+      "ingredient": "Rye, soup, flour, vegetable, oil, meat & salt.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image20.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image24.png\"]",
+      "price": "3.60",
+      "dishLeft": 50
+    },
+    {
+      "id": 9,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image21.png",
+      "name": "Pumpernickel",
+      "description": "Flour, rye, sugar, milk, eggs & salt.",
+      "ingredient": "Flour, rye, sugar, milk, eggs & salt.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "1.70",
+      "dishLeft": 50
+    },
+    {
+      "id": 10,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image22.png",
+      "name": "Round-bread",
+      "description": "Banana smelt, salt, sugar, milk, oreo & instant.",
+      "ingredient": "Banana smelt, salt, sugar, milk, oreo & instant.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "3.20",
+      "dishLeft": 45
+    },
+    {
+      "id": 11,
+      "type": "fresh-baked",
+      "dish": "fresh-baked",
+      "img": "http://127.0.0.1:8887/image24.png",
+      "name": "Ciabata",
+      "description": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+      "ingredient": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "2.90",
+      "dishLeft": 0
+    },
+    {
+      "id": 12,
+      "type": "cookies",
+      "dish": "sweetcake",
+      "img": "http://127.0.0.1:8887/image24.png",
+      "name": "Chocolate cookies",
+      "description": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+      "ingredient": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "2.90",
+      "dishLeft": 50
+    },
+    {
+      "id": 13,
+      "type": "coffee&tea",
+      "dish": "coffee&tea",
+      "img": "http://127.0.0.1:8887/image21.png",
+      "name": "Latte",
+      "description": "Flour, rye, sugar, milk, eggs & salt.",
+      "ingredient": "Flour, rye, sugar, milk, eggs & salt.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "1.70",
+      "dishLeft": 50
+    },
+    {
+      "id": 14,
+      "type": "chessecake",
+      "dish": "breakfast",
+      "img": "http://127.0.0.1:8887/image21.png",
+      "name": "Chessecake England",
+      "description": "Flour, rye, sugar, milk, eggs & salt.",
+      "ingredient": "Flour, rye, sugar, milk, eggs & salt.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "1.70",
+      "dishLeft": 50
+    },
+    {
+      "id": 15,
+      "type": "chessecake",
+      "dish": "breakfast",
+      "img": "http://127.0.0.1:8887/image21.png",
+      "name": "Chessecake France",
+      "description": "Flour, rye, sugar, milk, eggs & salt.",
+      "ingredient": "Flour, rye, sugar, milk, eggs & salt.",
+      "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+      "detailImg": "[\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image20.png\"]",
+      "price": "20.00",
+      "dishLeft": 50
+    }
   ],
-  "profile": { "name": "typicode" }
+  "combos": [
+    {
+      "id": 1,
+      "name": "Love combo",
+      "img": "http://127.0.0.1:8887/image31.png",
+      "numberPeople": 2,
+      "dishes": [
+        {
+          "id": 1,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image4.png",
+          "name": "Sweet Brioche",
+          "description": "A traditionally sweet yeast bread loaded with eggs and butter",
+          "ingredient": "Granulated sugar, instant, salt, vegetable, oil & flour.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image4.png\",\"http://127.0.0.1:8887/image5.png\",\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\"]",
+          "price": "2.10",
+          "dishLeft": 50,
+          "numberOfDish": 2
+        },
+        {
+          "id": 2,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image5.png",
+          "name": "Cornbread",
+          "description": "A bread of French origin whose high egg and butter content gives it a ri...",
+          "ingredient": "Rye, instant, flour, sugar, oil, vegetable & salt.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image5.png\",\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\",\"http://127.0.0.1:8887/image16.png\"]",
+          "price": "1.70",
+          "dishLeft": 50,
+          "numberOfDish": 2
+        },
+        {
+          "id": 3,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image6.png",
+          "name": "Rye Pumpernickel",
+          "description": "A type of rye bread, flavorful pumpernickel hails from Germany...",
+          "ingredient": "Rye, instant, flour, sugar, oil, vegetable & salt.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\",\"http://127.0.0.1:8887/image16.png\",\"http://127.0.0.1:8887/image17.png\"]",
+          "price": "3.50",
+          "dishLeft": 50,
+          "numberOfDish": 2
+        },
+        {
+          "id": 12,
+          "type": "cookies",
+          "dish": "sweetcake",
+          "img": "http://127.0.0.1:8887/image24.png",
+          "name": "Chocolate cookies",
+          "description": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+          "ingredient": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image20.png\"]",
+          "price": "2.90",
+          "dishLeft": 50,
+          "numberOfDish": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lunch combo",
+      "img": "http://127.0.0.1:8887/image31.png",
+      "numberPeople": 2,
+      "dishes": [
+        {
+          "id": 1,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image4.png",
+          "name": "Sweet Brioche",
+          "description": "A traditionally sweet yeast bread loaded with eggs and butter",
+          "ingredient": "Granulated sugar, instant, salt, vegetable, oil & flour.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image4.png\",\"http://127.0.0.1:8887/image5.png\",\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\"]",
+          "price": "2.10",
+          "dishLeft": 50,
+          "numberOfDish": 2
+        },
+        {
+          "id": 4,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image7.png",
+          "name": "Croissants",
+          "description": "Sweet Honey - Sweet Bread. We have the perfect honey bread for ...",
+          "ingredient": "Flour, chocolate, matcha, salt, sugar, milk & instant.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image7.png\",\"http://127.0.0.1:8887/image16.png\",\"http://127.0.0.1:8887/image17.png\",\"http://127.0.0.1:8887/image19.png\"]",
+          "price": "1.40",
+          "dishLeft": 50,
+          "numberOfDish": 2
+        },
+        {
+          "id": 5,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image17.png",
+          "name": "Cupcakes",
+          "description": "Flour, chocolate, matcha, salt, sugar, milk & instant.",
+          "ingredient": "Flour, chocolate, matcha, salt, sugar, milk & instant.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image17.png\",\"http://127.0.0.1:8887/image19.png\",\"http://127.0.0.1:8887/image20.png\",\"http://127.0.0.1:8887/image21.png\"]",
+          "price": "0.50",
+          "dishLeft": 50,
+          "numberOfDish": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Afternoon combo",
+      "img": "http://127.0.0.1:8887/image31.png",
+      "numberPeople": 1,
+      "dishes": [
+        {
+          "id": 13,
+          "type": "coffee&tea",
+          "dish": "coffee&tea",
+          "img": "http://127.0.0.1:8887/image21.png",
+          "name": "Latte",
+          "description": "Flour, rye, sugar, milk, eggs & salt.",
+          "ingredient": "Flour, rye, sugar, milk, eggs & salt.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image20.png\"]",
+          "price": "1.70",
+          "dishLeft": 50,
+          "numberOfDish": 1
+        },
+        {
+          "id": 12,
+          "type": "cookies",
+          "dish": "sweetcake",
+          "img": "http://127.0.0.1:8887/image24.png",
+          "name": "Chocolate cookies",
+          "description": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+          "ingredient": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image20.png\"]",
+          "price": "2.90",
+          "dishLeft": 50,
+          "numberOfDish": 1
+        }
+      ]
+    }
+  ],
+  "userCarts": [
+    {
+      "cartProduct": [
+        {
+          "id": 1,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image4.png",
+          "name": "Sweet Brioche",
+          "description": "A traditionally sweet yeast bread loaded with eggs and butter",
+          "ingredient": "Granulated sugar, instant, salt, vegetable, oil & flour.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image4.png\",\"http://127.0.0.1:8887/image5.png\",\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\"]",
+          "price": "2.10",
+          "dishLeft": 0,
+          "quantity": 2
+        }
+      ],
+      "cartCombo": [],
+      "id": 1
+    },
+    {
+      "cartProduct": [
+        {
+          "id": 11,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image24.png",
+          "name": "Ciabata",
+          "description": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+          "ingredient": "Oil, chocolate, rye, sugar, milk, eggs & flour.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image24.png\",\"http://127.0.0.1:8887/image22.png\",\"http://127.0.0.1:8887/image21.png\",\"http://127.0.0.1:8887/image20.png\"]",
+          "price": "2.90",
+          "dishLeft": 0,
+          "quantity": 11
+        },
+        {
+          "id": 1,
+          "type": "fresh-baked",
+          "dish": "fresh-baked",
+          "img": "http://127.0.0.1:8887/image4.png",
+          "name": "Sweet Brioche",
+          "description": "A traditionally sweet yeast bread loaded with eggs and butter",
+          "ingredient": "Granulated sugar, instant, salt, vegetable, oil & flour.",
+          "detail": "Brioche bread is a French bread, and a cross between a pastry and bread. This bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche. Brioche is a most popular bread in Let’s Eat Bakery and loved by many our customers.",
+          "detailImg": "[\"http://127.0.0.1:8887/image4.png\",\"http://127.0.0.1:8887/image5.png\",\"http://127.0.0.1:8887/image6.png\",\"http://127.0.0.1:8887/image7.png\"]",
+          "price": "2.10",
+          "dishLeft": 0,
+          "quantity": 8
+        }
+      ],
+      "cartCombo": [],
+      "id": 2
+    },
+    {
+      "cartProduct": [],
+      "cartCombo": [],
+      "id": 3
+    },
+    {
+      "cartProduct": [],
+      "cartCombo": [],
+      "id": 4
+    },
+    {
+      "cartProduct": [],
+      "cartCombo": [],
+      "id": 5
+    },
+    {
+      "cartProduct": [],
+      "cartCombo": [],
+      "id": 6
+    },
+    {
+      "cartProduct": [],
+      "cartCombo": [],
+      "id": 7
+    },
+    {
+      "cartProduct": [],
+      "cartCombo": [],
+      "id": 8
+    },
+    {
+      "cartProduct": [],
+      "cartCombo": [],
+      "id": 9
+    }
+  ],
+  "discountCode": [
+    {
+      "id": 1,
+      "code": "MTA57P",
+      "discount": -5
+    },
+    {
+      "id": 2,
+      "code": "ASD56F",
+      "discount": -10
+    },
+    {
+      "id": 1,
+      "code": "XCV57P",
+      "discount": -20
+    }
+  ]
 }
